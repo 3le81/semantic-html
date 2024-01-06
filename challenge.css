@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1.5rem;
+}
+
+h2 {
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    font-weight: normal;
+}
+
+label,
+input {
+    display: block;
+}
+
+footer {
+    margin-top: 1.5rem;
+}
+
+@media (max-width: 600px) {
+
+    label,
+    input {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+}
